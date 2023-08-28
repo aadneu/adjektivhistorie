@@ -1,0 +1,22 @@
+.ordContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    cursor: pointer;
+
+}
+
+.ordContainer>div {
+    border: solid 1px;
+    margin: 1%;
+    padding: 3%;
+    text-align: center;
+    border-radius: 65%;
+    background-color: orange;
+    width: fit-content
+}
+
+#adjHistorie {
+    margin: 1%;
+    width: auto;
+    font-size: x-large;
+}
